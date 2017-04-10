@@ -1,0 +1,42 @@
+{	"extensionName": "Gyroscope",
+	"description": "Extension for use Gyroscope sensor MPU6050",
+	"version": "1.0",
+	"author": "Erick Tornero(erickdeivy01@gmail.com)",
+	"homepage": "",
+	"sort":0,
+	"javascriptURL":"js/Gyroscope.js",
+  "firmware":"1.0",
+  "extensionPort":0,
+	"blockSpecs": [
+		[
+			"R",
+			"GetAngleX",
+			"GetAngleX",
+			{
+				"setup":"",
+				"inc":"#include \"Gyroscope.h\"",
+				"def":"Gyroscope gyro;\n",
+				"work":"gyro.getXangle()",
+				"loop":""
+			}
+		],
+		[
+			"R",
+			"GetAngleY",
+			"GetAngleY",
+			{
+				"setup":"",
+				"inc":"#include \"Gyroscope.h\"",
+				"def":"Gyroscope gyro;\n",
+				"work":"gyro.getYangle()",
+				"loop":""
+			}
+		]
+	],
+	"menus": {
+	},
+	"values":{
+	},
+	"translators":{
+	}
+}
