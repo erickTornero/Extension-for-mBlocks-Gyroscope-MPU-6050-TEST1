@@ -5,8 +5,8 @@
 	"homepage": "",
 	"sort":0,
 	"javascriptURL":"js/Gyroscope.js",
-  "firmware":"1.0",
-  "extensionPort":0,
+  	"firmware":"1.0",
+  	"extensionPort":0,
 	"blockSpecs": [
 		[
 			"R",
